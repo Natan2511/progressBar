@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const img = document.getElementById("img1");
 
   // Задаем значение прогресса руками
-  let progressValue = 50; // Установите желаемое значение прогресса здесь
+  let progressValue = 32; // Установите желаемое значение прогресса здесь
 
   if (progressValue >= 0 && progressValue <= 100) {
     progressBar.style.width = progressValue + "%";
